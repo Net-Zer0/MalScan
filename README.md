@@ -31,7 +31,7 @@ A Python script to **automatically search GitHub for `.exe` files**, download th
 1. **Clone this repository or download the script:**
 
     ```sh
-    git clone https://github.com/Net-Zer0/RaspiAutoMalwareScanner.git
+    git clone https://github.com/Net-Zer0/MalScan.git
     cd malscan.py
     ```
 
