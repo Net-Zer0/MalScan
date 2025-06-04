@@ -32,7 +32,7 @@ A Python script to **automatically search GitHub for `.exe` files**, download th
 
     ```sh
     git clone https://github.com/Net-Zer0/RaspiAutoMalwareScanner.git
-    cd RaspiAutoMalwareScanner
+    cd malscan.py
     ```
 
 2. **Install ClamAV:**
