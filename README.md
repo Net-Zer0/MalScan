@@ -62,6 +62,7 @@ What malscan looks like while running with verbose:
 4. **(Optional) Adjust directories:**
 
     - By default, the script uses `/mnt/ssd` for storage and `/tmp/git_scan` for temporary files. Change these if needed.
+    - ALSO more importaintly change the def mount portion "def mount_ssd():" where  "/dev/sda3" is defined, this needs to be set to your drive to work, IE: SSD or USB etc. using LSBLK can find your mount point!
 
 ---
 
