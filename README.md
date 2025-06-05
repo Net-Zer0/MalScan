@@ -67,3 +67,9 @@ Run the script with Python 3:
 
 ```sh
 sudo python3 malscan.py
+```
+--- 
+
+## Future Updates!
+
+I plan on intergrating not just searching for .exe's but for more binaries such as .dll and more formats soon!. Stay tuned for updates like this in the future!
