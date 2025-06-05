@@ -7,14 +7,13 @@ What malscan looks like while running with verbose:
 
 ![Alt text](Images/Malscan.png)
 ---
-# NOTICE: V2 added folder creation to make sorting easier.
-# NOTICE: V2VT Only uses VT for scanning and not ClamAV!
-## Newest Versions Will ALWAYS Be On The Root Directory!
+# MalScanV3.py uses ClamAV and Virus Total for detection
+# MalScanV3VT.py uses Virus Total Exclusively
 ---
 
 ## Features
 
-- Searches GitHub repositories for `.exe` files using the GitHub API.
+- Searches GitHub repositories for `.exe, .dll, .scr, .bat, .cmd, .js, .vbs, .ps1, .msi, .com, .jar` files using the GitHub API.
 - Should Comply with API Limits for Virus Total.
 - Downloads and scans each file with ClamAV.
 - Then scans files with VirusTotal (API key required, respects rate limits).
@@ -47,7 +46,7 @@ What malscan looks like while running with verbose:
     cd malscan.py
     ```
 
-2. **Install ClamAV:** -If you are using V2VT, you may skip this step!
+2. **Install ClamAV:** -If you are using V3VT, you may skip this step!
 
     ```sh
     sudo apt update
@@ -73,7 +72,7 @@ What malscan looks like while running with verbose:
 Run the script with Python 3:
 
 ```sh
-sudo python3 malscan.py
+sudo python3 MalScanV3.py or MalScanV3VT.py
 ```
 --- 
 ## Recommendations - For Running On PI or Linux SBC
