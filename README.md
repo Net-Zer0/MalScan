@@ -1,7 +1,7 @@
 # Git-MalScan
 ![Alt text](Images/logo512.png)
 ---
-A Python script to **automatically search GitHub for `.exe` files**, download them, and scan them for malware using [ClamAV](https://www.clamav.net/) and [VirusTotal](https://www.virustotal.com/). Results are logged and malicious files are saved for further analysis.
+A Python script to **automatically search GitHub for `.exe, .dll, .scr, .bat, .cmd, .js, .vbs, .ps1, .msi, .com, .jar` files**, download them, and scan them for malware using [ClamAV](https://www.clamav.net/) and [VirusTotal](https://www.virustotal.com/). Results are logged and malicious files are saved for further analysis.
 ---
 What malscan looks like while running with verbose:
 
