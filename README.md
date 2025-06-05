@@ -82,5 +82,12 @@ I would recommend if you are using Raspbian to use the 64bit version and run it 
 ---
 ## Future Updates!
 
-- I plan on intergrating not just searching for .exe's but for more binaries such as .dll and more formats soon! 
-- Stay tuned for updates like this in the future!
+- To Be Determined!!!
+- Will add more features and functions to do with detection or extensions upon majority request!
+---
+## Version Changelog
+- V1 - inital iteration of MalScan
+- V2 & V2VT - added folders and sorting methods
+- V3 & V3VT - added other extension to the scope of the search, ones commonly associated with malware.
+---
+  
