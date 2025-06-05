@@ -95,7 +95,7 @@ I would recommend if you are using Raspbian to use the 64bit version and run it 
 ---
 ## Version Changelog
 - V1 - inital iteration of MalScan
-- V2 & V2VT - added folders and sorting methods
+- V2 & V2VT - added folders and sorting methods, new VT version for exclusively using virus totals API for slower hardware.
 - V3 & V3VT - added other extension to the scope of the search, ones commonly associated with malware.
 ---
   
