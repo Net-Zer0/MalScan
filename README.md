@@ -63,4 +63,4 @@ NOTICE: V2 added folder creation to make sorting easier.
 Run the script with Python 3:
 
 ```sh
-sudo python3 
+sudo python3 malscan.py
