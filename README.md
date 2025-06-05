@@ -18,7 +18,10 @@ What malscan looks like while running with verbose:
 - Downloads and scans each file with ClamAV.
 - Then scans files with VirusTotal (API key required, respects rate limits).
 - Maintains blocklists to avoid reprocessing the same files or repositories.
-- Logs all actions and results.
+- Has extensive verbose mode, can choose wether you want to see the verbose when starting a scan.
+- Allows for setting recursive search depth
+- You can specify up to a 100 for search query at the moment, however this searches three filters so you'll likely get around 300 repos to search
+- Allows for setting a keyword to search for, IE: Roblox Hacks, and it will filter only from this topic
 - Designed for use on a Raspberry Pi or Linux system with SSD storage.
 - Automatically installs missing Python dependencies.
 - Automatically logs the source address to a file inside a folder containing the binary, allows for easier reporting.
