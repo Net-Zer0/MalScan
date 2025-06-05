@@ -8,7 +8,7 @@ What malscan looks like while running with verbose:
 ![Alt text](Images/Malscan.png)
 ---
 # NOTICE: V2 added folder creation to make sorting easier.
-# NOTICE: V2VT is the virus total version only, if your machine struggles with ClamAV, use this!
+# NOTICE: V2VT Only uses VT for scanning and not ClamAV!
 ## Newest Versions Will ALWAYS Be On The Root Directory!
 ---
 
