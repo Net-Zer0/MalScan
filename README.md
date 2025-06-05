@@ -3,18 +3,20 @@
 ---
 A Python script to **automatically search GitHub for `.exe` files**, download them, and scan them for malware using [ClamAV](https://www.clamav.net/) and [VirusTotal](https://www.virustotal.com/). Results are logged and malicious files are saved for further analysis.
 ![Alt text](Malscan.png)
+
+NOTICE: V2 added folder creation to make sorting easier.
 ---
 
 ## Features
 
 - Searches GitHub repositories for `.exe` files using the GitHub API.
 - Downloads and scans each file with ClamAV.
-- Optionally scans files with VirusTotal (API key required, respects rate limits).
+- Then scans files with VirusTotal (API key required, respects rate limits).
 - Maintains blocklists to avoid reprocessing the same files or repositories.
 - Logs all actions and results.
 - Designed for use on a Raspberry Pi or Linux system with SSD storage.
 - Automatically installs missing Python dependencies.
-
+- Automatically logs the source address to a file inside a folder containing the binary, allows for easier reporting.
 ---
 
 ## Requirements
