@@ -43,7 +43,7 @@ What malscan looks like while running with verbose:
     cd malscan.py
     ```
 
-2. **Install ClamAV:**
+2. **Install ClamAV:** -If you are using V2VT, you may skip this step!
 
     ```sh
     sudo apt update
