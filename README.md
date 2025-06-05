@@ -53,6 +53,7 @@ What malscan looks like while running with verbose:
 3. **Edit the script:**
 
     - Replace the `GITHUB_TOKEN` and `VT_API_KEY` variables at the top of the script with your own keys.
+    - You can create a token in the developer section of Githubs settings for your account, create a new personal one and copy that and use it in the script, However I must empathize you must never share this!!!
 
 4. **(Optional) Adjust directories:**
 
