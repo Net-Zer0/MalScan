@@ -6,6 +6,15 @@ A Python script to **automatically search GitHub for `.exe, .dll, .scr, .bat, .c
 What malscan looks like while running with verbose:
 
 ![Alt text](Images/UpdatedV3VT.png)
+
+What the folder output will look like:
+
+![Alt text](Images/FolderView.png)
+
+What the Malware Log will look like:
+
+![Alt text](Images/MalwareLog.png)
+
 ---
 # MalScanV3.py uses ClamAV and Virus Total for detection
 # MalScanV3VT.py uses Virus Total Exclusively
