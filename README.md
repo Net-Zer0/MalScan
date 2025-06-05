@@ -98,4 +98,10 @@ I would recommend if you are using Raspbian to use the 64bit version and run it 
 - V2 & V2VT - added folders and sorting methods, new VT version for exclusively using virus totals API for slower hardware.
 - V3 & V3VT - added other extension to the scope of the search, ones commonly associated with malware.
 ---
-  
+## Disclaimer
+Git-MalScan is provided for research and cybersecurity awareness purposes only. The authors and contributors are not responsible for any potential harm, system damage, data loss, or security breaches that may result from running this tool.
+- Users must exercise caution when scanning and handling binaries, as malware can pose significant risks.
+- Running Git-MalScan requires proper security measures, such as isolated environments, virtual machines, or dedicated analysis setups.
+- This tool does not guarantee complete or perfect malware detection and should not replace professional cybersecurity solutions.
+By using Git-MalScan, you acknowledge and accept these risks and take full responsibility for its usage.
+---
