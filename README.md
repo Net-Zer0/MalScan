@@ -22,7 +22,7 @@ What the Malware Log will look like:
 
 ## Features
 
-- Searches GitHub repositories for `.exe, .dll, .scr, .bat, .cmd, .js, .vbs, .ps1, .msi, .com, .jar` files using the GitHub API.
+- Searches GitHub repositories for `.exe, .com, .pif, .msi, .scr, .bat, .cmd, .dll, .sys, .drv, .ocx, .vbs, .js, .ps1, .hta, .wsf, .lnk, .sh, .py, .zip, .rar, .7z, .tar, .gz, .iso, .docm, .xlsm, .pptm, .apk, .jar` files using the GitHub API.
 - Should Comply with API Limits for Virus Total.
 - Downloads and scans each file with ClamAV.
 - Then scans files with VirusTotal (API key required, respects rate limits).
@@ -106,6 +106,7 @@ I would recommend if you are using Raspbian to use the 64bit version and run it 
 - V2 & V2VT - added folders and sorting methods, new VT version for exclusively using virus totals API for slower hardware.
 - V3 & V3VT - added other extension to the scope of the search, ones commonly associated with malware.
 - V3.1 & V3.1VT - removed unused function for optimization and added more API error handling
+- V4 & V4VT - `.pif, .drv, .ocx, .sys, .hta, .wsf, .lnk, .sh, .py, .zip, .rar, .7z, .tar, .gz, .iso, .docm, .xlsm, .pptm, .apk` added to scan list
 ---
 ## Disclaimer
 Git-MalScan is provided for research and cybersecurity awareness purposes only. The authors and contributors are not responsible for any potential harm, system damage, data loss, or security breaches that may result from running this tool.
