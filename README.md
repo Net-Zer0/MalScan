@@ -16,8 +16,8 @@ What the Malware Log will look like:
 ![Alt text](Images/MalwareLog.png)
 
 ---
-# MalScanV3.py uses ClamAV and Virus Total for detection
-# MalScanV3VT.py uses Virus Total Exclusively
+# MalScanV3.1.py uses ClamAV and Virus Total for detection
+# MalScanV3.1VT.py uses Virus Total Exclusively
 ---
 
 ## Features
@@ -89,7 +89,7 @@ SEARCHES = [
 Run the script with Python 3:
 
 ```sh
-sudo python3 MalScanV3.py or MalScanV3VT.py
+sudo python3 MalScanV3.1.py or MalScanV3.1VT.py
 ```
 --- 
 ## Recommendations - For Running On PI or Linux SBC
@@ -105,6 +105,7 @@ I would recommend if you are using Raspbian to use the 64bit version and run it 
 - V1 - inital iteration of MalScan
 - V2 & V2VT - added folders and sorting methods, new VT version for exclusively using virus totals API for slower hardware.
 - V3 & V3VT - added other extension to the scope of the search, ones commonly associated with malware.
+- V3.1 & V3.1VT - removed unused function for optimization and added more API error handling
 ---
 ## Disclaimer
 Git-MalScan is provided for research and cybersecurity awareness purposes only. The authors and contributors are not responsible for any potential harm, system damage, data loss, or security breaches that may result from running this tool.
