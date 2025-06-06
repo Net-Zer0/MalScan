@@ -16,8 +16,8 @@ What the Malware Log will look like:
 ![Alt text](Images/MalwareLog.png)
 
 ---
-# MalScanV3.1.py uses ClamAV and Virus Total for detection
-# MalScanV3.1VT.py uses Virus Total Exclusively
+# MalScanV4.py uses ClamAV and Virus Total for detection
+# MalScanV4VT.py uses Virus Total Exclusively
 ---
 
 ## Features
@@ -89,7 +89,7 @@ SEARCHES = [
 Run the script with Python 3:
 
 ```sh
-sudo python3 MalScanV3.1.py or MalScanV3.1VT.py
+sudo python3 MalScanV4.py or MalScan4VT.py
 ```
 --- 
 ## Recommendations - For Running On PI or Linux SBC
