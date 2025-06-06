@@ -55,7 +55,7 @@ What the Malware Log will look like:
     cd malscan.py
     ```
 
-2. **Install ClamAV:** -If you are using V3VT, you may skip this step!
+2. **Install ClamAV:** -If you are using V3.1VT, you may skip this step!
 
     ```sh
     sudo apt update
