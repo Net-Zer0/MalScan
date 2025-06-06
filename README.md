@@ -74,6 +74,14 @@ What the Malware Log will look like:
     - ALSO more importantly change the def mount portion `def mount_ssd():` where  `/dev/sda3` is defined, this needs to be set to your drive to work, IE: SSD or USB etc. using **lsblk** can find your mount point!
     - ***THIS STEP IS CRUCIAL TO THE SCRIPT WORKING AND REQUIRES SOME KNOWLEDGE OF PYTHON!!!***
 
+6. **(Optinal) Adjust the search query to include other file types**
+   `SEARCH_QUERY = "extension:exe OR extension:dll OR extension:scr OR extension:bat OR extension:cmd OR extension:js OR extension:vbs OR extension:ps1 OR extension:msi OR extension:com OR extension:jar"
+SEARCHES = [
+    {"desc": "fewest stars", "sort": "stars", "order": "asc"},
+    {"desc": "newly indexed", "sort": "indexed", "order": "desc"},
+    {"desc": "recently updated", "sort": "updated", "order": "desc"},
+]`
+- you can pretty much change or add any scannable file type to `extensions:X OR extension:X` meaning you can easily add more to the scope by tweaking it until I add more to the defualt script!
 ---
 
 ## Usage
